@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Exhibition"
+        android:key="pref_exhibition">
+        <CheckBoxPreference
+            android:key="pref_seconds"
+            android:title="Show seconds"
+            android:summary="hh:mm:ss"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

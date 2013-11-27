@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/activity_margin">
+
+    <TextView
+            android:id="@+id/row_checkin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check-In"
+            android:layout_alignParentLeft="true"/>
+
+    <TextView
+            android:id="@+id/row_checkin_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:00"
+            android:layout_alignParentRight="true"/>
+
+    <TextView
+            android:id="@+id/row_checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check-Out"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/row_checkin"/>
+
+    <TextView
+            android:id="@+id/row_checkout_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13:00"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/row_checkin_time"/>
+
+</RelativeLayout>

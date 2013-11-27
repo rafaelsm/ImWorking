@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/row_padding"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/sunday_row"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/sunday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunday"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:id="@+id/sunday_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/01"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:00 - 18:00"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/sunday_day" />
+
+        <TextView
+            android:id="@+id/sunday_total_time_worked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00"
+            android:layout_below="@id/sunday_tv" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/monday_row"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/monday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:id="@+id/monday_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02/01"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:00 - 18:00"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/monday_day" />
+
+        <TextView
+            android:id="@+id/monday_total_time_worked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00"
+            android:layout_below="@id/monday_tv" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tuesday_row"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tuesday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:id="@+id/tuesday_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03/01"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:00 - 18:00"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tuesday_day" />
+
+        <TextView
+            android:id="@+id/tuesday_total_time_worked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00"
+            android:layout_below="@id/tuesday_tv" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/wednesday_row"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/wednesday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:id="@+id/wednesday_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04/01"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:00 - 18:00"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/wednesday_day" />
+
+        <TextView
+            android:id="@+id/wednesday_total_time_worked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00"
+            android:layout_below="@id/wednesday_tv" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/thursday_row"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/thursday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thursday"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:id="@+id/thursday_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05/01"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:00 - 18:00"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/thursday_day" />
+
+        <TextView
+            android:id="@+id/thursday_total_time_worked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00"
+            android:layout_below="@id/thursday_tv" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/friday_row"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/friday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friday"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:id="@+id/friday_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="06/01"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:00 - 18:00"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/friday_day" />
+
+        <TextView
+            android:id="@+id/friday_total_time_worked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00"
+            android:layout_below="@id/friday_tv" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/saturday_row"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/saturday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturday"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:id="@+id/saturday_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07/01"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/textview_title_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:00 - 18:00"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/saturday_day" />
+
+        <TextView
+            android:id="@+id/saturday_total_time_worked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00"
+            android:layout_below="@id/saturday_tv" />
+
+    </RelativeLayout>
+
+</LinearLayout>

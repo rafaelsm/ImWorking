@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_margin"
+                android:paddingLeft="@dimen/activity_margin"
+                android:paddingRight="@dimen/activity_margin">
+
+    <TextView
+            android:id="@+id/day_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textview_title_big"
+            />
+
+    <TextView
+            android:id="@+id/day_number_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/01"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/textview_title_big"/>
+
+
+    <TextView
+            android:id="@+id/worked_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="worked - 00:10"
+            android:layout_alignParentBottom="true"/>
+
+    <TextView
+            android:id="@+id/left_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="left - 07:50"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+    <ListView
+            android:id="@+id/listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/day_tv"
+            android:layout_above="@id/worked_tv"
+            android:layout_marginBottom="@dimen/activity_margin"
+            />
+</RelativeLayout>
