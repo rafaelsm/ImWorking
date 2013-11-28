@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import java.util.TimeZone;
 
+import br.com.rads.imworking.R;
 import br.com.rads.imworking.util.DataManager;
 
 /**

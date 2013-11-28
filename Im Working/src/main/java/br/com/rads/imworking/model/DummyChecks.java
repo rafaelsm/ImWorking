@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by rafael_2 on 26/11/13.
  */
-public class DummyCheck {
+public class DummyChecks {
 
     public static List<Check> getDummyChecks() {
         List<Check> list = new ArrayList<Check>();

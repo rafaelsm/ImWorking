@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import br.com.rads.imworking.R;
 import br.com.rads.imworking.fragment.TodayFragment;
 import br.com.rads.imworking.model.Check;
 

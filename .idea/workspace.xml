@@ -74,99 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
+      <file leaf-file-name="Day.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Day.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="46" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="3128">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3537#3544#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Check.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="1" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="1547">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodayFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="49" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3706">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeekFragment.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="19" selection-start="4192" selection-end="4192" vertical-scroll-proportion="0.4540728" vertical-offset="1829" max-vertical-offset="2788">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodayListAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapters/TodayListAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MonthFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/MonthFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#724#1039#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingsFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/SettingsFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="1" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/CheckType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="23" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DummyCheck.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/DummyCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="20" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="22" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.26027396" vertical-offset="146" max-vertical-offset="1309">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -561,20 +472,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java" />
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/WriteTagActivity.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Day.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/DummyCheck.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/CheckType.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java" />
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/MonthFragment.java" />
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/SettingsFragment.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapter/TodayListAdapter.java" />
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapters/TodayListAdapter.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/SettingsFragment.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/MonthFragment.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapters/TodayListAdapter.java" />
       </list>
     </option>
   </component>
@@ -831,48 +742,6 @@
               <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Im Working" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImWorking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Im Working" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="defaultFlavor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imworking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -892,6 +761,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -929,6 +799,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -954,19 +837,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1039,6 +909,8 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
     <list size="1">
@@ -1085,17 +957,15 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1109,6 +979,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1129,14 +1001,76 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="46" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="1" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="49" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="3706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="19" selection-start="4192" selection-end="4192" vertical-scroll-proportion="0.0" vertical-offset="1829" max-vertical-offset="2788">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapters/TodayListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/MonthFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/SettingsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="1" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/CheckType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="23" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/DummyChecks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="20" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3281">
           <folding>
-            <element signature="e#4569#4619#0" expanded="true" />
-            <element signature="e#6375#6409#0" expanded="true" />
-            <element signature="e#6477#6511#0" expanded="true" />
-            <element signature="e#6579#6613#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1163,9 +1097,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/xml/preferences.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="876">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="876" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/menu/options.xml">
@@ -1206,25 +1138,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="0" selection-start="3875" selection-end="3875" vertical-scroll-proportion="0.0" vertical-offset="1302" max-vertical-offset="3332">
-          <folding>
-            <element signature="e#4569#4619#0" expanded="true" />
-            <element signature="e#6375#6409#0" expanded="true" />
-            <element signature="e#6477#6511#0" expanded="true" />
-            <element signature="e#6579#6613#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/layout/fragment_write_tag.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849">
@@ -1256,76 +1169,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Day.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="1" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1309">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/DummyCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/CheckType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/MonthFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#724#1039#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/SettingsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapters/TodayListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="46" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="3128">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3537#3544#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="90" column="1" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="1547">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,15 +1193,73 @@
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="49" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="32" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="2805">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/SettingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="19" selection-start="4192" selection-end="4192" vertical-scroll-proportion="0.4540728" vertical-offset="1829" max-vertical-offset="2788">
+        <state line="16" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.38169256" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="38" selection-start="930" selection-end="930" vertical-scroll-proportion="0.7633851" vertical-offset="0" max-vertical-offset="3655">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/SettingsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="400" selection-end="400" vertical-scroll-proportion="0.38169256" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapters/TodayListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="40" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.32469776" vertical-offset="356" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/MonthFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="42" selection-start="591" selection-end="591" vertical-scroll-proportion="0.41105354" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/CheckType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="23" selection-start="105" selection-end="105" vertical-scroll-proportion="0.14680484" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/DummyChecks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="20" selection-start="476" selection-end="476" vertical-scroll-proportion="0.55785835" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Day.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.26027396" vertical-offset="146" max-vertical-offset="1309">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

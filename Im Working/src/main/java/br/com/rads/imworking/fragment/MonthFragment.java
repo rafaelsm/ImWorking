@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.CalendarView;
 import android.widget.Toast;
 
+import br.com.rads.imworking.R;
+
 /**
  * Created by rafael_2 on 26/11/13.
  */
