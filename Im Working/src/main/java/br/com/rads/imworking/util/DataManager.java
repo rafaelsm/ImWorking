@@ -40,13 +40,15 @@ public class DataManager {
         JSONObject jsonCheck = createJsonForCheck(jsonFile, check);
         saveJSON(context, filePath, jsonCheck);
 
-
     }
 
     private void saveJSON(Context context, String filePath, JSONObject jsonCheck) {
+
+        FileOutputStream out = null;
+
         try {
             String jsonAsString = jsonCheck.toString();
-            FileOutputStream out = context.openFileOutput(filePath,
+            out = context.openFileOutput(filePath,
                     Context.MODE_PRIVATE);
             out.write(jsonAsString.getBytes());
             out.close();
@@ -54,6 +56,14 @@ public class DataManager {
             Log.d(TAG, "file not found to write");
         } catch (IOException e) {
             Log.d(TAG, "io error");
+        } finally {
+            if(out != null){
+                try {
+                    out.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 

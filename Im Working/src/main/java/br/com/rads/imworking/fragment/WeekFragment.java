@@ -85,7 +85,7 @@ public class WeekFragment extends Fragment {
     }
 
     /**
-     * Refatorar esse metodo, codigo duplicado
+     * Bug @@@ ABORTING: invalid address or address of corrupt block
      */
     public void updateWeek() {
         Time today = new Time(TimeZone.getDefault().toString());

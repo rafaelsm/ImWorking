@@ -161,7 +161,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
     @Override
     public void onCheckoutWeek() {
-        this.weekFragment.updateWeek();
+//        if(this.weekFragment != null)
+//            this.weekFragment.updateWeek();
     }
 
     /**

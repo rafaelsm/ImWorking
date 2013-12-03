@@ -31,7 +31,7 @@ import java.nio.charset.Charset;
 
 public class WriteTagActivity extends Activity {
 
-    private static final String TAG = "savepoint_tag";
+    private static final String TAG = "imworking_tag";
 
     private Context context;
     private NfcAdapter nfcAdapter;
@@ -174,7 +174,7 @@ public class WriteTagActivity extends Activity {
 
         NdefRecord rtdUriRecord = new NdefRecord(NdefRecord.TNF_WELL_KNOWN, NdefRecord.RTD_URI, new byte[0], payload);
 
-        return new NdefMessage(new NdefRecord[]{rtdUriRecord, NdefRecord.createApplicationRecord("br.com.rads.save")});
+        return new NdefMessage(new NdefRecord[]{rtdUriRecord, NdefRecord.createApplicationRecord("br.com.rads.imworking")});
     }
 
     private WriteResponse writeTag(NdefMessage message, Tag tag) {
