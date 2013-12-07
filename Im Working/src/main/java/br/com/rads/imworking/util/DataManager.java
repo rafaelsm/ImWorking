@@ -4,6 +4,9 @@ import android.content.Context;
 import android.text.format.Time;
 import android.util.Log;
 
+import com.google.common.base.Charsets;
+import com.google.common.io.Files;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
