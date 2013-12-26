@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.text.format.Time;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -32,6 +33,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d("CORRUPTED", "onCreate");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -73,9 +76,29 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     }
 
     @Override
+    protected void onResume() {
+        Log.d("CORRUPTED", "onResume");
+        super.onResume();
+    }
+
+    @Override
+    protected void onResumeFragments() {
+        Log.d("CORRUPTED", "onResumeFragments");
+        super.onResumeFragments();
+    }
+
+    @Override
     protected void onNewIntent(Intent intent) {
+        Log.d("CORRUPTED", "onNewIntent");
         super.onNewIntent(intent);
+        setIntent(intent);
         savepoint();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d("CORRUPTED", "onDestroy");
     }
 
     private void savepoint() {

@@ -51,6 +51,7 @@ public class TodayFragment extends Fragment {
 
     public interface OnCheckListener {
         public void onCheckIn();
+
         public void onCheckOut();
     }
 
@@ -161,7 +162,7 @@ public class TodayFragment extends Fragment {
         public boolean onCreateActionMode(ActionMode actionMode, Menu menu) {
 
             MenuInflater inflater = actionMode.getMenuInflater();
-            inflater.inflate(R.menu.cab_menu_checks,menu);
+            inflater.inflate(R.menu.cab_menu_checks, menu);
 
             return true;
         }
@@ -173,7 +174,7 @@ public class TodayFragment extends Fragment {
 
         @Override
         public boolean onActionItemClicked(ActionMode actionMode, MenuItem menuItem) {
-            switch (menuItem.getItemId()){
+            switch (menuItem.getItemId()) {
                 case R.id.cab_delete:
                     deleteCheck();
                     actionMode.finish();
@@ -200,7 +201,7 @@ public class TodayFragment extends Fragment {
 
             Check c = checks.get(pos);
 
-            if(actionMode != null){
+            if (actionMode != null) {
                 return false;
             }
 

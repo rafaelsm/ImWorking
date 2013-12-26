@@ -85,7 +85,7 @@ public class Check {
         return check;
     }
 
-    public String getFilePath(){
+    public String getFileName(){
         return this.getCheckIn().year + "-" + this.getCheckIn().month;
     }
 }
