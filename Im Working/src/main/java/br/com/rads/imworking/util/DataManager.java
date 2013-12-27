@@ -182,11 +182,11 @@ public class DataManager {
 
     public long getHoursWorked(Context context, Time workedDay) {
         long hoursInMillis = 0;
-        List<Check> checksForWorkedDay = loadChecks(context, workedDay);
-        for (Check check : checksForWorkedDay) {
-            hoursInMillis += check.differenceBetweenInAndOut();
-            Log.d(TAG, "check=" + check.toString());
-        }
+//        List<Check> checksForWorkedDay = loadChecks(context, workedDay);
+//        for (Check check : checksForWorkedDay) {
+//            hoursInMillis += check.differenceBetweenInAndOut();
+//            Log.d(TAG, "check=" + check.toString());
+//        }
 
         return hoursInMillis;
     }

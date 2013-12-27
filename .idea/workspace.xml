@@ -84,6 +84,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java" line="139" class="br.com.rads.imworking.util.DataManager" package="br.com.rads.imworking.util">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -94,20 +109,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataManager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
+      <file leaf-file-name="TodayFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="0" selection-start="3154" selection-end="3154" vertical-scroll-proportion="0.45626822" vertical-offset="1302" max-vertical-offset="3026">
-              <folding />
+            <state line="94" column="25" selection-start="2937" selection-end="2937" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="3706">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Check.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java">
+      <file leaf-file-name="DataManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="18" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1496">
-              <folding />
+            <state line="182" column="27" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.0" vertical-offset="2186" max-vertical-offset="3060">
+              <folding>
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#3853#3860#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,52 +136,21 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="24" selection-start="5929" selection-end="5929" vertical-scroll-proportion="0.0" vertical-offset="2477" max-vertical-offset="3349">
-              <folding />
+            <state line="101" column="7" selection-start="3562" selection-end="3562" vertical-scroll-proportion="0.0" vertical-offset="806" max-vertical-offset="3349">
+              <folding>
+                <element signature="e#4562#4612#0" expanded="true" />
+                <element signature="e#6414#6448#0" expanded="true" />
+                <element signature="e#6516#6550#0" expanded="true" />
+                <element signature="e#6618#6652#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="30" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeekFragment.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="WeekFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="8" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2805">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="20" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Day.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Day.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="5" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1343">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="61" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="765">
+            <state line="37" column="37" selection-start="1101" selection-end="1107" vertical-scroll-proportion="0.6557093" vertical-offset="63" max-vertical-offset="2618">
               <folding />
             </state>
           </provider>
@@ -558,7 +548,6 @@
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/CheckType.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapter/TodayListAdapter.java" />
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/SettingsFragment.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/MonthFragment.java" />
@@ -566,17 +555,18 @@
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/WriteTagActivity.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Im Working/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java" />
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java" />
         <option value="$PROJECT_DIR$/Im Working/build.gradle" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -606,6 +596,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -916,7 +907,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -932,7 +922,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="01498B0E1900600B" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="02bb0ef908d8942c" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="nexus_4" />
   </component>
   <component name="RecentsManager">
@@ -971,6 +961,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -996,19 +999,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1123,7 +1113,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1131,28 +1121,28 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40723982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4068736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21064301" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3011111" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21024546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21016043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1173,24 +1163,15 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="61" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="181" column="23" selection-start="5904" selection-end="5904" vertical-scroll-proportion="0.0" vertical-offset="3077" max-vertical-offset="3400">
-          <folding />
+          <folding>
+            <element signature="e#4562#4612#0" expanded="true" />
+            <element signature="e#6414#6448#0" expanded="true" />
+            <element signature="e#6516#6550#0" expanded="true" />
+            <element signature="e#6618#6652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1225,14 +1206,23 @@
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="176" column="0" selection-start="5246" selection-end="5246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3162">
-          <folding />
+          <folding>
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#3853#3860#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="25" selection-start="4054" selection-end="4054" vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="3706">
-          <folding />
+          <folding>
+            <element signature="e#4562#4612#0" expanded="true" />
+            <element signature="e#6414#6448#0" expanded="true" />
+            <element signature="e#6516#6550#0" expanded="true" />
+            <element signature="e#6618#6652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,14 +1250,23 @@
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="17" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3162">
-          <folding />
+          <folding>
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#3853#3860#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="40" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="3655">
-          <folding />
+          <folding>
+            <element signature="e#4562#4612#0" expanded="true" />
+            <element signature="e#6414#6448#0" expanded="true" />
+            <element signature="e#6516#6550#0" expanded="true" />
+            <element signature="e#6618#6652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1295,7 +1294,11 @@
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="46" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3162">
-          <folding />
+          <folding>
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#3853#3860#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1344,24 +1347,29 @@
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3281">
-          <folding />
+          <folding>
+            <element signature="e#4562#4612#0" expanded="true" />
+            <element signature="e#6414#6448#0" expanded="true" />
+            <element signature="e#6516#6550#0" expanded="true" />
+            <element signature="e#6618#6652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/layout/fragment_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/layout/fragment_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/xml/preferences.xml">
@@ -1375,11 +1383,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/values/dimens.xml">
@@ -1388,21 +1396,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/layout/fragment_write_tag.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/build/source/r/defaultFlavor/debug/br/com/rads/imworking/R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="19" selection-start="233" selection-end="233" vertical-scroll-proportion="-1.3713768" vertical-offset="825" max-vertical-offset="2397" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="49" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3706" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/SettingsActivity.java">
@@ -1413,11 +1416,6 @@
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/SettingsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="36" selection-start="400" selection-end="400" vertical-scroll-proportion="0.38169256" vertical-offset="0" max-vertical-offset="579" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapters/TodayListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="40" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.32469776" vertical-offset="356" max-vertical-offset="1292" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/MonthFragment.java">
@@ -1454,13 +1452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="8" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0" vertical-offset="827" max-vertical-offset="2805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="61" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
@@ -1475,23 +1466,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="24" selection-start="5929" selection-end="5929" vertical-scroll-proportion="0.0" vertical-offset="2477" max-vertical-offset="3349">
+        <state line="87" column="18" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.71900827" vertical-offset="891" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/text/format/Time.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="18" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1496">
+        <state line="65" column="23" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0" vertical-offset="919" max-vertical-offset="1717">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.0/support-v4-19.0.0.jar!/android/support/v4/app/Fragment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="22" selection-start="8884" selection-end="8884" vertical-scroll-proportion="-6.44" vertical-offset="3494" max-vertical-offset="4607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapters/TodayListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="11" selection-start="575" selection-end="575" vertical-scroll-proportion="0.33830845" vertical-offset="0" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="25" selection-start="2937" selection-end="2937" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="3706">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="7" selection-start="3562" selection-end="3562" vertical-scroll-proportion="0.0" vertical-offset="806" max-vertical-offset="3349">
+          <folding>
+            <element signature="e#4562#4612#0" expanded="true" />
+            <element signature="e#6414#6448#0" expanded="true" />
+            <element signature="e#6516#6550#0" expanded="true" />
+            <element signature="e#6618#6652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="3154" selection-end="3154" vertical-scroll-proportion="0.45626822" vertical-offset="1302" max-vertical-offset="3026">
+        <state line="182" column="27" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.0" vertical-offset="2186" max-vertical-offset="3060">
+          <folding>
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#3853#3860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="37" selection-start="1101" selection-end="1107" vertical-scroll-proportion="0.6557093" vertical-offset="63" max-vertical-offset="2618">
           <folding />
         </state>
       </provider>
