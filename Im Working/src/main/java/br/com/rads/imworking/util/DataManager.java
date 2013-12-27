@@ -28,7 +28,7 @@ public class DataManager {
     private static final String TAG = "DataManager";
     private static DataManager instance = new DataManager();
 
-    private DataManager() {
+    public DataManager() {
     }
 
     public static DataManager getInstance() {

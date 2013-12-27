@@ -86,6 +86,11 @@ public class WeekFragment extends Fragment {
 
     /**
      * Bug @@@ ABORTING: invalid address or address of corrupt block
+     *
+     *
+     * getWorkedText
+     *
+     *
      */
     public void updateWeek() {
         Time today = new Time(TimeZone.getDefault().toString());
@@ -149,11 +154,22 @@ public class WeekFragment extends Fragment {
         }
     }
 
+    /**
+     * Bug @@@ ABORTING: invalid address or address of corrupt block
+     *
+     *
+     * getWorkedText
+     *
+     *GRANDE PROBLEMA DUAS THREADS ACESSANDO O MESMO ARQUIVO
+     */
     private String getWorkedText(Time day) {
-        long timeInMillis = DataManager.getInstance().getHoursWorked(this.getActivity(), day);
-        Time worked = new Time(TimeZone.getDefault().toString());
-        worked.set(timeInMillis);
-        return worked.format("%H:%M:%S");
+        DataManager manager = DataManager.getInstance();
+
+//        long timeInMillis = manager.getHoursWorked(this.getActivity(), day);
+//        Time worked = new Time(TimeZone.getDefault().toString());
+//        worked.set(timeInMillis);
+//        return worked.format("%H:%M:%S");
+        return "";
     }
 
 }
