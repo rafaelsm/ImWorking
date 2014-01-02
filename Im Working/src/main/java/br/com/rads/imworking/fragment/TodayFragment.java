@@ -1,5 +1,6 @@
 package br.com.rads.imworking.fragment;
 
+import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -27,7 +28,6 @@ import br.com.rads.imworking.R;
 import br.com.rads.imworking.adapters.TodayListAdapter;
 import br.com.rads.imworking.model.Check;
 import br.com.rads.imworking.model.Day;
-import br.com.rads.imworking.util.DataManager;
 
 /**
  * Created by rafael_2 on 26/11/13.
@@ -40,8 +40,6 @@ public class TodayFragment extends Fragment {
     private Day today;
     private List<Check> checks = new ArrayList<Check>();
 
-    private OnCheckListener listener;
-
     private ListView checkListView;
     private TextView dayNumberTextView;
     private TextView hoursWorkedTextView;
@@ -49,25 +47,32 @@ public class TodayFragment extends Fragment {
 
     public ActionMode actionMode;
 
-    public interface OnCheckListener {
-        public void onCheckIn();
+    private OnTodayLoadListener todayListener;
 
-        public void onCheckOut();
+    public interface OnTodayLoadListener{
+        public void onTodayFinishLoad();
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
 
-        Time day = new Time();
-        day.setToNow();
-
-        this.today = new Day(day);
-
-        DataManager manager = DataManager.getInstance();
-        this.checks = manager.loadChecks(this.getActivity(), day);
+        try{
+            todayListener = (OnTodayLoadListener) activity;
+        }catch (ClassCastException e){
+            throw new ClassCastException( activity.toString() + " must implement OnTodayLoadListener");
+        }
 
     }
+
+    public TodayFragment( List<Check> todayChecks){
+        Time day = new Time();
+        day.setToNow();
+        this.today = new Day(day);
+
+        this.checks = todayChecks;
+    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -79,7 +84,7 @@ public class TodayFragment extends Fragment {
         hoursWorkedTextView = (TextView) rootView.findViewById(R.id.worked_tv);
         hoursLeftTextView = (TextView) rootView.findViewById(R.id.left_tv);
 
-        dayNumberTextView.setText(this.today.getDay().format("%d/%m"));
+        dayNumberTextView.setText(this.today.getTime().format("%d/%m"));
         hoursWorkedTextView.setText("00:00");
         hoursLeftTextView.setText("08:00");
 

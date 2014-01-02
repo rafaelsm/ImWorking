@@ -17,20 +17,18 @@ public class Day {
 
     public Day(Time day) {
         this.day = day;
-        this.day.setToNow();
         this.checkList = new ArrayList<Check>();
     }
 
     public List<Check> getCheckList() {
-        return DummyChecks.getDummyChecks();
-        //return this.checkList;
+        return this.checkList;
     }
 
     public void addCheck(Check check) {
         this.checkList.add(check);
     }
 
-    public Time getDay() {
+    public Time getTime() {
         return day;
     }
 
@@ -39,11 +37,11 @@ public class Day {
         t.setToNow();
 
 
-        if(t.weekDay > 0){
+        if (t.weekDay > 0) {
 
             for (int i = 0; i < 7; i++) {
-                long oneMoreDay = i*24*60*60*1000;
-                t.set(t.toMillis(false)+oneMoreDay);
+                long oneMoreDay = i * 24 * 60 * 60 * 1000;
+                t.set(t.toMillis(false) + oneMoreDay);
                 Log.d("WEEK", t.format("%d=") + t.format("%A=") + t.weekDay);
                 t.setToNow();
             }
@@ -68,6 +66,10 @@ public class Day {
                 break;
         }
 
+    }
 
+    @Override
+    public String toString() {
+        return this.getTime().monthDay + "/" + (this.getTime().month+1) + "/" + this.getTime().year;
     }
 }

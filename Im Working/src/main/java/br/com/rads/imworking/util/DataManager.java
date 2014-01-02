@@ -95,9 +95,14 @@ public class DataManager {
         return root;
     }
 
-    private String loadJSONFileAsString(String filename) throws IOException {
+    private String loadJSONFileAsString(String filename)  {
         File jsonFile = new File(filename);
-        return Files.toString(jsonFile, Charsets.UTF_8);
+
+        try {
+            return Files.toString(jsonFile, Charsets.UTF_8);
+        } catch (IOException e) {
+            return null;
+        }
     }
 
 
@@ -107,12 +112,7 @@ public class DataManager {
 
         String fileNameOfChecksFile = context.getFilesDir().toString().concat( File.separator + day.year + "-" + day.month);
 
-        String jsonFile = null;
-        try {
-            jsonFile = loadJSONFileAsString(fileNameOfChecksFile);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        String jsonFile =  loadJSONFileAsString(fileNameOfChecksFile);
 
         if (jsonFile != null && !jsonFile.isEmpty()) {
             try {
@@ -150,17 +150,6 @@ public class DataManager {
             Log.d(TAG, "Directory deleted");
         }
 
-    }
-
-    public long getHoursWorked(Context context, Time workedDay) {
-        long hoursInMillis = 0;
-        List<Check> checksForWorkedDay = loadChecks(context, workedDay);
-        for (Check check : checksForWorkedDay) {
-            hoursInMillis += check.differenceBetweenInAndOut();
-            Log.d(TAG, "check=" + check.toString());
-        }
-
-        return hoursInMillis;
     }
 
     public void createFileIfDoesntExist(String filePath) throws IOException {

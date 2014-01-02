@@ -1,22 +1,29 @@
 package br.com.rads.imworking.fragment;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.format.Time;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.List;
 import java.util.TimeZone;
 
 import br.com.rads.imworking.R;
+import br.com.rads.imworking.model.Check;
+import br.com.rads.imworking.model.Day;
 import br.com.rads.imworking.util.DataManager;
 
 /**
  * Created by rafael_2 on 26/11/13.
  */
 public class WeekFragment extends Fragment {
+
+    private static final String TAG = "WeekFragment";
 
     private TextView sundayView;
     private TextView mondayView;
@@ -34,8 +41,15 @@ public class WeekFragment extends Fragment {
     private TextView fridayTotalTimeWorked;
     private TextView saturdayTotalTimeWorked;
 
+
+    private List<Day> daysOfWeek;
+
+    public WeekFragment(List<Day> weekDaysWorked) {
+        this.daysOfWeek = weekDaysWorked;
+    }
+
     public interface OnCheckWeekListener {
-        public void onCheckoutWeek();
+        public void onCheckoutUpdateWeek();
     }
 
     @Override
@@ -66,63 +80,19 @@ public class WeekFragment extends Fragment {
         return rootView;
     }
 
-    private void updateFirstDayOfWeek() {
 
-        Time today = new Time(TimeZone.getDefault().toString());
-        today.setToNow();
-
-
-        for (int i = 0; i < 7; i++) {
-
-            long oneMoreDay = 24 * 60 * 60 * 1000;
-
-            today.set(today.toMillis(false) + oneMoreDay);
-            String day = today.format("%d/%m");
-            setDayForWeek(day, today);
-
-        }
-
-    }
-
-    /**
-     * Bug @@@ ABORTING: invalid address or address of corrupt block
-     *
-     *
-     * getWorkedText
-     *
-     *
-     */
     public void updateWeek() {
-        Time today = new Time(TimeZone.getDefault().toString());
-        today.setToNow();
 
-        if (today.weekDay == 1) {
-            updateFirstDayOfWeek();
-        } else {
-
-            int subtract = today.weekDay;
-            subtract = subtract * 24 * 60 * 60 * 1000;
-            today.set(today.toMillis(false) - subtract);
-            String day = today.format("%d/%m");
-            setDayForWeek(day, today);
-
-            for (int i = 1; i < 7; i++) {
-
-                int oneMoreDay = 24 * 60 * 60 * 1000;
-
-                today.set(today.toMillis(false) + oneMoreDay);
-                String newDay = today.format("%d/%m");
-                setDayForWeek(newDay, today);
-
-            }
+        for (Day day : daysOfWeek) {
+            String formattedDay = day.getTime().format("%d/%m");
+            setDayForWeek(formattedDay,day);
         }
 
-        if (this.getView() != null)
-            this.getView().invalidate();
     }
 
-    private void setDayForWeek(String formattedDay, Time day) {
-        switch (day.weekDay) {
+    private void setDayForWeek(String formattedDay, Day day) {
+
+        switch (day.getTime().weekDay) {
             case 0:
                 sundayView.setText(formattedDay);
                 sundayTotalTimeWorked.setText(getWorkedText(day));
@@ -154,22 +124,28 @@ public class WeekFragment extends Fragment {
         }
     }
 
-    /**
-     * Bug @@@ ABORTING: invalid address or address of corrupt block
-     *
-     *
-     * getWorkedText
-     *
-     *GRANDE PROBLEMA DUAS THREADS ACESSANDO O MESMO ARQUIVO
-     */
-    private String getWorkedText(Time day) {
+    private String getWorkedText(Day day) {
+        long timeInMillis = getHoursWorked(day);
+        Time worked = new Time(TimeZone.getDefault().toString());
+        worked.set(timeInMillis);
+        String workedText = worked.format("%H:%M:%S");
+        return workedText;
+
+    }
+
+    public long getHoursWorked(Day workedDay) {
+        long hoursInMillis = 0;
+
         DataManager manager = DataManager.getInstance();
 
-//        long timeInMillis = manager.getHoursWorked(this.getActivity(), day);
-//        Time worked = new Time(TimeZone.getDefault().toString());
-//        worked.set(timeInMillis);
-//        return worked.format("%H:%M:%S");
-        return "";
+        List<Check> checksForWorkedDay = manager.loadChecks(this.getActivity(),workedDay.getTime());
+
+        for (Check check : checksForWorkedDay) {
+            hoursInMillis += check.differenceBetweenInAndOut();
+            Log.d(TAG, "check=" + check.toString());
+        }
+
+        return hoursInMillis;
     }
 
 }

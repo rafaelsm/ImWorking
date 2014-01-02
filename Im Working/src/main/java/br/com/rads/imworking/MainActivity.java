@@ -13,16 +13,22 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
+import java.util.TimeZone;
 
 import br.com.rads.imworking.fragment.MonthFragment;
 import br.com.rads.imworking.fragment.TodayFragment;
 import br.com.rads.imworking.fragment.WeekFragment;
 import br.com.rads.imworking.model.Check;
 import br.com.rads.imworking.model.CheckType;
+import br.com.rads.imworking.model.Day;
 import br.com.rads.imworking.util.DataManager;
 
-public class MainActivity extends FragmentActivity implements ActionBar.TabListener, WeekFragment.OnCheckWeekListener {
+public class MainActivity extends FragmentActivity implements ActionBar.TabListener, WeekFragment.OnCheckWeekListener, TodayFragment.OnTodayLoadListener {
+
+    private static final String TAG = "MainActivity";
 
     private TodayFragment todayFragment;
     private WeekFragment weekFragment;
@@ -31,10 +37,11 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     SectionsPagerAdapter tabsPageAdapter;
     ViewPager viewPager;
 
+    private List<Check> todayChecks = new ArrayList<Check>();
+    private List<Day> weekDaysWorked = new ArrayList<Day>();
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d("CORRUPTED", "onCreate");
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -42,9 +49,12 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         final ActionBar actionBar = getActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
+        loadTodayChecks();
+        loadWeekDaysWorked();
+
         //Initiate fragments
-        todayFragment = new TodayFragment();
-        weekFragment = new WeekFragment();
+        todayFragment = new TodayFragment(todayChecks);
+        weekFragment = new WeekFragment(weekDaysWorked);
         monthFragment = new MonthFragment();
 
         // Create the adapter that will return a fragment for each of the three
@@ -75,30 +85,81 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
     }
 
-    @Override
-    protected void onResume() {
-        Log.d("CORRUPTED", "onResume");
-        super.onResume();
+    private void loadTodayChecks() {
+
+        Time today = new Time();
+        today.setToNow();
+
+        DataManager manager = DataManager.getInstance();
+        this.todayChecks = manager.loadChecks(this, today);
+
     }
 
-    @Override
-    protected void onResumeFragments() {
-        Log.d("CORRUPTED", "onResumeFragments");
-        super.onResumeFragments();
+    private void loadWeekDaysWorked() {
+
+        Time day = new Time(TimeZone.getDefault().toString());
+        day.setToNow();
+
+        if (day.weekDay == 0) {
+            updateFirstDayOfWeek();
+        }
+         else {
+
+            int subtract = day.weekDay;
+            subtract = subtract * 24 * 60 * 60 * 1000;
+            long sundayInMillis = day.toMillis(false) - subtract;
+            day.set(sundayInMillis);
+
+            Day sunday = new Day (day);
+            this.weekDaysWorked.add(sunday);
+
+            Time mondayTime = new Time(TimeZone.getDefault().toString());
+            Time tuesdayTime = new Time(TimeZone.getDefault().toString());
+            Time wednesdayTime = new Time(TimeZone.getDefault().toString());
+            Time thursdayTime = new Time(TimeZone.getDefault().toString());
+            Time fridayTime = new Time(TimeZone.getDefault().toString());
+            Time saturdayTime = new Time(TimeZone.getDefault().toString());
+
+            int oneMoreDay = 24 * 60 * 60 * 1000;
+            mondayTime.set(day.toMillis(false) + oneMoreDay);
+            tuesdayTime.set(mondayTime.toMillis(false) +  oneMoreDay);
+            wednesdayTime.set(tuesdayTime.toMillis(false) +  oneMoreDay);
+            thursdayTime.set(wednesdayTime.toMillis(false) +  oneMoreDay);
+            fridayTime.set(thursdayTime.toMillis(false) + oneMoreDay);
+            saturdayTime.set(fridayTime.toMillis(false) + oneMoreDay);
+
+            this.weekDaysWorked.add(new Day(mondayTime));
+            this.weekDaysWorked.add(new Day(tuesdayTime));
+            this.weekDaysWorked.add(new Day(wednesdayTime));
+            this.weekDaysWorked.add(new Day(thursdayTime));
+            this.weekDaysWorked.add(new Day(fridayTime));
+            this.weekDaysWorked.add(new Day(saturdayTime));
+
+        }
+    }
+
+    private void updateFirstDayOfWeek() {
+
+        Time day = new Time(TimeZone.getDefault().toString());
+        day.setToNow();
+
+
+        for (int i = 0; i < 7; i++) {
+
+            long oneMoreDay = 24 * 60 * 60 * 1000;
+
+            day.set(day.toMillis(false) + oneMoreDay);
+           this.weekDaysWorked.add( new Day(day));
+
+        }
+
     }
 
     @Override
     protected void onNewIntent(Intent intent) {
-        Log.d("CORRUPTED", "onNewIntent");
         super.onNewIntent(intent);
         setIntent(intent);
         savepoint();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.d("CORRUPTED", "onDestroy");
     }
 
     private void savepoint() {
@@ -117,7 +178,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             editor.putBoolean(CheckType.CHECK_IN.toString(), true);
             todayFragment.addCheckOut();
             todayFragment.calculateHoursRemaining();
-            onCheckoutWeek();
+            onCheckoutUpdateWeek();
         }
 
         editor.commit();
@@ -183,15 +244,15 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     }
 
     @Override
-    public void onCheckoutWeek() {
-//        if(this.weekFragment != null)
-//            this.weekFragment.updateWeek();
+    public void onTodayFinishLoad() {
+        this.weekFragment.updateWeek();
     }
 
-    /**
-     * A {@link android.support.v4.app.FragmentPagerAdapter} that returns a fragment corresponding to
-     * one of the sections/tabs/pages.
-     */
+    @Override
+    public void onCheckoutUpdateWeek() {
+        this.weekFragment.updateWeek();
+    }
+
     public class SectionsPagerAdapter extends android.support.v4.app.FragmentPagerAdapter {
 
         public SectionsPagerAdapter(android.support.v4.app.FragmentManager fm) {
