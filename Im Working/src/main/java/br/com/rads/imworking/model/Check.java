@@ -88,4 +88,8 @@ public class Check {
     public String getFileName(){
         return this.getCheckIn().year + "-" + this.getCheckIn().month;
     }
+
+    public Day getDay(){
+        return new Day(this.checkOut);
+    }
 }

@@ -65,6 +65,9 @@ public class TodayFragment extends Fragment {
 
     }
 
+    public TodayFragment(){
+    }
+
     public TodayFragment( List<Check> todayChecks){
         Time day = new Time();
         day.setToNow();

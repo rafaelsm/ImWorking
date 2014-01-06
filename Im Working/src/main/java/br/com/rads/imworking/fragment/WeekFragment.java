@@ -1,5 +1,6 @@
 package br.com.rads.imworking.fragment;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -48,8 +49,22 @@ public class WeekFragment extends Fragment {
         this.daysOfWeek = weekDaysWorked;
     }
 
+    private OnCheckWeekListener weekListener;
+
     public interface OnCheckWeekListener {
-        public void onCheckoutUpdateWeek();
+        public void onCheckoutUpdateWeek(Day day);
+    }
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+
+        try{
+            this.weekListener = (OnCheckWeekListener) activity;
+        }catch (ClassCastException e){
+            throw new ClassCastException( activity.toString() + " must implement OnCheckWeekListener");
+        }
+
     }
 
     @Override
@@ -95,57 +110,56 @@ public class WeekFragment extends Fragment {
         switch (day.getTime().weekDay) {
             case 0:
                 sundayView.setText(formattedDay);
-                sundayTotalTimeWorked.setText(getWorkedText(day));
                 break;
             case 1:
                 mondayView.setText(formattedDay);
-                mondayTotalTimeWorked.setText(getWorkedText(day));
                 break;
             case 2:
                 tuesdayView.setText(formattedDay);
-                tuesdayTotalTimeWorked.setText(getWorkedText(day));
                 break;
             case 3:
                 wednesdayView.setText(formattedDay);
-                wednesdayTotalTimeWorked.setText(getWorkedText(day));
                 break;
             case 4:
                 thursdayView.setText(formattedDay);
-                thursdayTotalTimeWorked.setText(getWorkedText(day));
                 break;
             case 5:
                 fridayView.setText(formattedDay);
-                fridayTotalTimeWorked.setText(getWorkedText(day));
                 break;
             case 6:
                 saturdayView.setText(formattedDay);
-                saturdayTotalTimeWorked.setText(getWorkedText(day));
                 break;
         }
     }
 
-    private String getWorkedText(Day day) {
-        long timeInMillis = getHoursWorked(day);
+    public void updateDay(Day day, long workTime) {
         Time worked = new Time(TimeZone.getDefault().toString());
-        worked.set(timeInMillis);
+        worked.set(workTime);
         String workedText = worked.format("%H:%M:%S");
-        return workedText;
 
-    }
-
-    public long getHoursWorked(Day workedDay) {
-        long hoursInMillis = 0;
-
-        DataManager manager = DataManager.getInstance();
-
-        List<Check> checksForWorkedDay = manager.loadChecks(this.getActivity(),workedDay.getTime());
-
-        for (Check check : checksForWorkedDay) {
-            hoursInMillis += check.differenceBetweenInAndOut();
-            Log.d(TAG, "check=" + check.toString());
+        switch (day.getTime().weekDay) {
+            case 0:
+                sundayTotalTimeWorked.setText(workedText);
+                break;
+            case 1:
+                mondayTotalTimeWorked.setText(workedText);
+                break;
+            case 2:
+                tuesdayTotalTimeWorked.setText(workedText);
+                break;
+            case 3:
+                wednesdayTotalTimeWorked.setText(workedText);
+                break;
+            case 4:
+                thursdayTotalTimeWorked.setText(workedText);
+                break;
+            case 5:
+                fridayTotalTimeWorked.setText(workedText);
+                break;
+            case 6:
+                saturdayTotalTimeWorked.setText(workedText);
+                break;
         }
-
-        return hoursInMillis;
     }
 
 }

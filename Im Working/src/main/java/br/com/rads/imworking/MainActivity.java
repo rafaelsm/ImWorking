@@ -155,6 +155,21 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
     }
 
+    public long getHoursWorked(Day workedDay) {
+        long hoursInMillis = 0;
+
+        DataManager manager = DataManager.getInstance();
+
+        List<Check> checksForWorkedDay = manager.loadChecks(this,workedDay.getTime());
+
+        for (Check check : checksForWorkedDay) {
+            hoursInMillis += check.differenceBetweenInAndOut();
+            Log.d(TAG, "check=" + check.toString());
+        }
+
+        return hoursInMillis;
+    }
+
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
@@ -174,16 +189,18 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         if (preferences.getBoolean(CheckType.CHECK_IN.toString(), true)) {
             editor.putBoolean(CheckType.CHECK_IN.toString(), false);
             todayFragment.addCheckIn();
+            saveCheck();
         } else {
             editor.putBoolean(CheckType.CHECK_IN.toString(), true);
             todayFragment.addCheckOut();
             todayFragment.calculateHoursRemaining();
-            onCheckoutUpdateWeek();
+            saveCheck();
+            onCheckoutUpdateWeek(todayFragment.getLastCheck().getDay());
         }
 
         editor.commit();
 
-        saveCheck();
+
         clearDataForDebug(false);
     }
 
@@ -249,8 +266,9 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     }
 
     @Override
-    public void onCheckoutUpdateWeek() {
-        this.weekFragment.updateWeek();
+    public void onCheckoutUpdateWeek(Day day) {
+        long workTime = getHoursWorked(day);
+        this.weekFragment.updateDay(day, workTime);
     }
 
     public class SectionsPagerAdapter extends android.support.v4.app.FragmentPagerAdapter {
@@ -262,12 +280,12 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         @Override
         public android.support.v4.app.Fragment getItem(int position) {
 
-            switch (position + 1) {
-                case 1:
+            switch (position) {
+                case 0:
                     return todayFragment;
-                case 2:
+                case 1:
                     return weekFragment;
-                case 3:
+                case 2:
                     return monthFragment;
             }
 
