@@ -12,7 +12,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -29,7 +28,7 @@ public class DataManager {
     private static final String TAG = "DataManager";
     private static DataManager instance = new DataManager();
 
-    private DataManager() {
+    public DataManager() {
     }
 
     public static DataManager getInstance() {
@@ -38,39 +37,23 @@ public class DataManager {
 
     public void saveCheck(Context context, Check check) {
 
-        String filePath = check.getFilePath();
-        String jsonFile = loadJSONFile(context, filePath);
-        JSONObject jsonCheck = createJsonForCheck(jsonFile, check);
-        saveJSON(context, filePath, jsonCheck);
-
-    }
-
-    private void saveJSON(Context context, String filePath, JSONObject jsonCheck) {
-
-        FileOutputStream out = null;
-
         try {
-            String jsonAsString = jsonCheck.toString();
-            out = context.openFileOutput(filePath,
-                    Context.MODE_PRIVATE);
-            out.write(jsonAsString.getBytes());
-            out.close();
-        } catch (FileNotFoundException e) {
-            Log.d(TAG, "file not found to write");
+            String filePath = context.getFilesDir().toString().concat(File.separator + check.getFileName());
+            createFileIfDoesntExist(filePath);
+            String jsonFile = loadJSONFileAsString(filePath);
+            JSONObject jsonCheck = addCheckAtJsonFile(check,jsonFile);
+            saveJsonCheckAtFile(jsonCheck, filePath);
         } catch (IOException e) {
-            Log.d(TAG, "io error");
-        } finally {
-            if(out != null){
-                try {
-                    out.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
+            e.printStackTrace();
         }
+
     }
 
-    private JSONObject createJsonForCheck(String jsonFile, Check check) {
+    private void saveJsonCheckAtFile(JSONObject jsonCheck, String filePath) throws IOException {
+        Files.write(jsonCheck.toString().getBytes(), new File(filePath));
+    }
+
+    private JSONObject addCheckAtJsonFile(Check check,String jsonFile) {
 
         JSONObject root = null;
 
@@ -112,35 +95,24 @@ public class DataManager {
         return root;
     }
 
-    private String loadJSONFile(Context context, String filename) {
-
-        StringBuilder sb = new StringBuilder();
+    private String loadJSONFileAsString(String filename)  {
+        File jsonFile = new File(filename);
 
         try {
-
-            FileInputStream in = context.openFileInput(filename);
-            byte[] buffer = new byte[1024];
-
-            while ((in.read(buffer)) != -1) {
-                sb.append(new String(buffer));
-            }
-
-        } catch (FileNotFoundException e) {
-            Log.e(TAG, "Arquivo não econtrado: " + e.toString());
-            return null;
+            return Files.toString(jsonFile, Charsets.UTF_8);
         } catch (IOException e) {
-            Log.e(TAG, "Erro ao carregar arquivo: " + e.toString());
             return null;
         }
-
-        return sb.toString();
     }
 
+
+    //refatorar clean code
     public List<Check> loadChecks(Context context, Time day) {
         List<Check> checks = new ArrayList<Check>();
 
-        String fileNameOfChecksFile = day.year + "-" + day.month;
-        String jsonFile = loadJSONFile(context, fileNameOfChecksFile);
+        String fileNameOfChecksFile = context.getFilesDir().toString().concat( File.separator + day.year + "-" + day.month);
+
+        String jsonFile =  loadJSONFileAsString(fileNameOfChecksFile);
 
         if (jsonFile != null && !jsonFile.isEmpty()) {
             try {
@@ -180,6 +152,7 @@ public class DataManager {
 
     }
 
+<<<<<<< HEAD
     public long getHoursWorked(Context context, Time workedDay) {
         long hoursInMillis = 0;
 //        List<Check> checksForWorkedDay = loadChecks(context, workedDay);
@@ -189,5 +162,12 @@ public class DataManager {
 //        }
 
         return hoursInMillis;
+=======
+    public void createFileIfDoesntExist(String filePath) throws IOException {
+        File checkFile = new File(filePath);
+        if (!checkFile.exists()){
+            Files.write("",checkFile,Charsets.UTF_8);
+        }
+>>>>>>> origin/feature-refactoring
     }
 }

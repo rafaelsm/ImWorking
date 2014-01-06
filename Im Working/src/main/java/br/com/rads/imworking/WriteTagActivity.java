@@ -49,7 +49,7 @@ public class WriteTagActivity extends Activity {
         this.nfcAdapter = NfcAdapter.getDefaultAdapter(this);
 
         //Nâo deixa rodar novamente a activity
-        Intent intent = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        Intent intent = new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP );
         this.nfcPendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
 
         //filtro para encontrar a tag
@@ -67,7 +67,7 @@ public class WriteTagActivity extends Activity {
 
         if (nfcAdapter != null) {
 
-            //Se nâo esta habiliatado leva a tela de Configurações para habilitar
+            //Se nâo esta habilitado leva a tela de Configurações para habilitar
             if (!nfcAdapter.isEnabled()) {
                 new AlertDialog.Builder(this).setPositiveButton(getString(R.string.button_settings), new DialogInterface.OnClickListener() {
                     @Override

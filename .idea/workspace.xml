@@ -24,6 +24,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -68,6 +73,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+<<<<<<< HEAD
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java" line="90" class="br.com.rads.imworking.fragment.WeekFragment" package="br.com.rads.imworking.fragment">
         <option name="ENABLED" value="true" />
@@ -100,6 +106,9 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+=======
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+>>>>>>> origin/feature-refactoring
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -109,6 +118,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="TodayFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,14 +138,26 @@
                 <element signature="e#804#805#0" expanded="true" />
                 <element signature="e#835#836#0" expanded="true" />
                 <element signature="e#3853#3860#0" expanded="true" />
+=======
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="194" column="40" selection-start="6753" selection-end="6753" vertical-scroll-proportion="0.44264942" vertical-offset="2565" max-vertical-offset="4998">
+              <folding>
+                <element signature="e#7929#7979#0" expanded="true" />
+                <element signature="e#9743#9777#0" expanded="true" />
+                <element signature="e#9845#9879#0" expanded="true" />
+                <element signature="e#9947#9981#0" expanded="true" />
+>>>>>>> origin/feature-refactoring
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
+      <file leaf-file-name="DataManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="101" column="7" selection-start="3562" selection-end="3562" vertical-scroll-proportion="0.0" vertical-offset="806" max-vertical-offset="3349">
               <folding>
                 <element signature="e#4562#4612#0" expanded="true" />
@@ -143,14 +165,34 @@
                 <element signature="e#6516#6550#0" expanded="true" />
                 <element signature="e#6618#6652#0" expanded="true" />
               </folding>
+=======
+            <state line="55" column="44" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="2499">
+              <folding />
+>>>>>>> origin/feature-refactoring
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="WeekFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="37" column="37" selection-start="1101" selection-end="1107" vertical-scroll-proportion="0.6557093" vertical-offset="63" max-vertical-offset="2618">
+=======
+      <file leaf-file-name="Check.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="38" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="877" max-vertical-offset="1564">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeekFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="22" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0" vertical-offset="1642" max-vertical-offset="2618">
+>>>>>>> origin/feature-refactoring
               <folding />
             </state>
           </provider>
@@ -224,14 +266,14 @@
                 <option name="name" value="assembleDefaultFlavorDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles the Test build for the DefaultFlavorDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="assembleDefaultFlavorDebugTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles the Release build for flavor DefaultFlavor" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="assembleDefaultFlavorRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the Test build for the DefaultFlavorDebug build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="assembleDefaultFlavorTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Release builds" />
@@ -270,11 +312,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="compileDefaultFlavorDebug" />
+                <option name="name" value="compileDefaultFlavorDebugAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="compileDefaultFlavorDebugAidl" />
+                <option name="name" value="compileDefaultFlavorDebugJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="compileDefaultFlavorDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
@@ -282,7 +328,19 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="compileDefaultFlavorRelease" />
+                <option name="name" value="compileDefaultFlavorDebugTestAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="compileDefaultFlavorDebugTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="compileDefaultFlavorDebugTestNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="compileDefaultFlavorDebugTestRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
@@ -290,19 +348,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="compileDefaultFlavorReleaseJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="compileDefaultFlavorReleaseNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="compileDefaultFlavorReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="compileDefaultFlavorTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="compileDefaultFlavorTestAidl" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="compileDefaultFlavorTestRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
@@ -319,7 +373,7 @@
                 <option name="name" value="connectedInstrumentTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs and runs the tests for Build 'DefaultFlavorDebug' on connected devices." />
+                <option name="description" value="Installs and runs the tests for Build 'defaultFlavorDebug' on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="connectedInstrumentTestDefaultFlavorDebug" />
               </ExternalTaskPojo>
@@ -339,11 +393,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="dexDefaultFlavorRelease" />
+                <option name="name" value="dexDefaultFlavorDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="dexDefaultFlavorTest" />
+                <option name="name" value="dexDefaultFlavorRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
@@ -355,19 +409,19 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="generateDefaultFlavorDebugTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="generateDefaultFlavorDebugTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="generateDefaultFlavorReleaseBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="generateDefaultFlavorReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="generateDefaultFlavorTestBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="generateDefaultFlavorTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build for flavor DefaultFlavor" />
@@ -377,7 +431,7 @@
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Test build for the DefaultFlavorDebug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="installDefaultFlavorTest" />
+                <option name="name" value="installDefaultFlavorDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -385,16 +439,14 @@
                 <option name="name" value="lint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Runs lint on the DefaultFlavorDebug build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="lintDefaultFlavorDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Runs lint on the DefaultFlavorRelease build" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="lintDefaultFlavorRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="lintDefaultFlavorTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
@@ -406,6 +458,14 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="mergeDefaultFlavorDebugTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="mergeDefaultFlavorDebugTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="mergeDefaultFlavorReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -414,23 +474,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="mergeDefaultFlavorTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="mergeDefaultFlavorTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="packageDefaultFlavorDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="packageDefaultFlavorRelease" />
+                <option name="name" value="packageDefaultFlavorDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="packageDefaultFlavorTest" />
+                <option name="name" value="packageDefaultFlavorRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
@@ -442,11 +494,19 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="preDefaultFlavorDebugTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="preDefaultFlavorReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="preDefaultFlavorTestBuild" />
+                <option name="name" value="preDexDefaultFlavorDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="preDexDefaultFlavorDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
@@ -454,11 +514,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="prepareDefaultFlavorReleaseDependencies" />
+                <option name="name" value="prepareDefaultFlavorDebugTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="prepareDefaultFlavorTestDependencies" />
+                <option name="name" value="prepareDefaultFlavorReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
@@ -474,6 +534,18 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="processDefaultFlavorDebugTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="processDefaultFlavorDebugTestManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="processDefaultFlavorDebugTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="processDefaultFlavorReleaseJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -483,18 +555,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="processDefaultFlavorReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="processDefaultFlavorTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="processDefaultFlavorTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="processDefaultFlavorTestTestManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
@@ -516,14 +576,14 @@
                 <option name="name" value="uninstallDefaultFlavorDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Test build for the DefaultFlavorDebug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
+                <option name="name" value="uninstallDefaultFlavorDebugTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Release build for flavor DefaultFlavor" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
                 <option name="name" value="uninstallDefaultFlavorRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Test build for the DefaultFlavorDebug build" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
-                <option name="name" value="uninstallDefaultFlavorTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Im Working" />
@@ -543,25 +603,35 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Day.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/DummyCheck.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/CheckType.java" />
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapter/TodayListAdapter.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/SettingsFragment.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/MonthFragment.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapters/TodayListAdapter.java" />
-        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/WriteTagActivity.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/WriteTagActivity.java" />
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/Im Working/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Im Working/build.gradle" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java" />
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java" />
+=======
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Day.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java" />
+        <option value="$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java" />
+>>>>>>> origin/feature-refactoring
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -759,6 +829,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Im Working" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImWorking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Im Working" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -887,24 +987,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Im Working" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImWorking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Im Working" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -924,6 +1006,8 @@
     <property name="FullScreen" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="02bb0ef908d8942c" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="nexus_4" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1112,12 +1196,33 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1138,11 +1243,36 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21016043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28713968" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20971185" sideWeight="0.5007752" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32815966" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2849224" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20971185" sideWeight="0.4992248" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32705098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/feature-refactoring
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/feature-refactoring
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1160,9 +1290,14 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="181" column="23" selection-start="5904" selection-end="5904" vertical-scroll-proportion="0.0" vertical-offset="3077" max-vertical-offset="3400">
@@ -1203,6 +1338,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> origin/feature-refactoring
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="176" column="0" selection-start="5246" selection-end="5246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3162">
@@ -1218,10 +1355,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="25" selection-start="4054" selection-end="4054" vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="3706">
           <folding>
+<<<<<<< HEAD
             <element signature="e#4562#4612#0" expanded="true" />
             <element signature="e#6414#6448#0" expanded="true" />
             <element signature="e#6516#6550#0" expanded="true" />
             <element signature="e#6618#6652#0" expanded="true" />
+=======
+            <element signature="e#7929#7979#0" expanded="true" />
+            <element signature="e#9743#9777#0" expanded="true" />
+            <element signature="e#9845#9879#0" expanded="true" />
+            <element signature="e#9947#9981#0" expanded="true" />
+>>>>>>> origin/feature-refactoring
           </folding>
         </state>
       </provider>
@@ -1262,10 +1406,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="40" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="3655">
           <folding>
+<<<<<<< HEAD
             <element signature="e#4562#4612#0" expanded="true" />
             <element signature="e#6414#6448#0" expanded="true" />
             <element signature="e#6516#6550#0" expanded="true" />
             <element signature="e#6618#6652#0" expanded="true" />
+=======
+            <element signature="e#7929#7979#0" expanded="true" />
+            <element signature="e#9743#9777#0" expanded="true" />
+            <element signature="e#9845#9879#0" expanded="true" />
+            <element signature="e#9947#9981#0" expanded="true" />
+>>>>>>> origin/feature-refactoring
           </folding>
         </state>
       </provider>
@@ -1348,10 +1499,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3281">
           <folding>
+<<<<<<< HEAD
             <element signature="e#4562#4612#0" expanded="true" />
             <element signature="e#6414#6448#0" expanded="true" />
             <element signature="e#6516#6550#0" expanded="true" />
             <element signature="e#6618#6652#0" expanded="true" />
+=======
+            <element signature="e#7929#7979#0" expanded="true" />
+            <element signature="e#9743#9777#0" expanded="true" />
+            <element signature="e#9845#9879#0" expanded="true" />
+            <element signature="e#9947#9981#0" expanded="true" />
+>>>>>>> origin/feature-refactoring
           </folding>
         </state>
       </provider>
@@ -1399,6 +1557,7 @@
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849" />
       </provider>
@@ -1407,6 +1566,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="19" selection-start="233" selection-end="233" vertical-scroll-proportion="-1.3713768" vertical-offset="825" max-vertical-offset="2397" />
       </provider>
+=======
+>>>>>>> origin/feature-refactoring
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/SettingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1433,16 +1594,31 @@
         <state line="22" column="20" selection-start="476" selection-end="476" vertical-scroll-proportion="0.55785835" vertical-offset="0" max-vertical-offset="579" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Day.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/FragmentPagerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="1309">
-          <folding />
-        </state>
+        <state line="23" column="16" selection-start="1090" selection-end="1090" vertical-scroll-proportion="-7.44" vertical-offset="188" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/view/ViewPager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="9" selection-start="7042" selection-end="7042" vertical-scroll-proportion="-6.76" vertical-offset="2432" max-vertical-offset="5933" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/Fragment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="210" column="22" selection-start="8606" selection-end="8606" vertical-scroll-proportion="-6.44" vertical-offset="3392" max-vertical-offset="4505" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/FragmentManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="9" selection-start="5063" selection-end="5063" vertical-scroll-proportion="-6.44" vertical-offset="1437" max-vertical-offset="3383" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/WriteTagActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="48" selection-start="974" selection-end="974" vertical-scroll-proportion="0.17677642" vertical-offset="0" max-vertical-offset="3808" />
+        <state line="68" column="0" selection-start="2160" selection-end="2160" vertical-scroll-proportion="-0.5359019" vertical-offset="1003" max-vertical-offset="3808">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/values/strings.xml">
@@ -1452,44 +1628,100 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="61" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
+=======
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/text/format/Time.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.16699411" vertical-offset="0" max-vertical-offset="1717" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.0/support-v4-19.0.0.jar!/android/support/v4/app/FragmentPagerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1747" selection-end="1747" vertical-scroll-proportion="-18.76" vertical-offset="126" max-vertical-offset="697" />
+>>>>>>> origin/feature-refactoring
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="16" column="30" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+=======
+        <state line="11" column="79" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+>>>>>>> origin/feature-refactoring
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="18" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.71900827" vertical-offset="891" max-vertical-offset="1496">
+=======
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="619" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="833">
+>>>>>>> origin/feature-refactoring
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/text/format/Time.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="23" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0" vertical-offset="919" max-vertical-offset="1717">
+=======
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/res/layout/fragment_week.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.25757575" vertical-offset="153" max-vertical-offset="4777">
+>>>>>>> origin/feature-refactoring
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.0/support-v4-19.0.0.jar!/android/support/v4/app/Fragment.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="216" column="22" selection-start="8884" selection-end="8884" vertical-scroll-proportion="-6.44" vertical-offset="3494" max-vertical-offset="4607">
+=======
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Day.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="30" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.7253635" vertical-offset="605" max-vertical-offset="1224">
+>>>>>>> origin/feature-refactoring
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/adapters/TodayListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="11" selection-start="575" selection-end="575" vertical-scroll-proportion="0.33830845" vertical-offset="0" max-vertical-offset="1292">
+=======
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/TodayFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="16" selection-start="4603" selection-end="4603" vertical-scroll-proportion="0.33279485" vertical-offset="2293" max-vertical-offset="3859">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="22" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0" vertical-offset="1642" max-vertical-offset="2618">
+>>>>>>> origin/feature-refactoring
           <folding />
         </state>
       </provider>
@@ -1517,6 +1749,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/util/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="182" column="27" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.0" vertical-offset="2186" max-vertical-offset="3060">
           <folding>
             <element signature="e#804#805#0" expanded="true" />
@@ -1529,7 +1762,29 @@
     <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/fragment/WeekFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="37" selection-start="1101" selection-end="1107" vertical-scroll-proportion="0.6557093" vertical-offset="63" max-vertical-offset="2618">
+=======
+        <state line="55" column="44" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="2499">
+>>>>>>> origin/feature-refactoring
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/model/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="38" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="877" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Im Working/src/main/java/br/com/rads/imworking/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="40" selection-start="6753" selection-end="6753" vertical-scroll-proportion="0.44264942" vertical-offset="2565" max-vertical-offset="4998">
+          <folding>
+            <element signature="e#7929#7979#0" expanded="true" />
+            <element signature="e#9743#9777#0" expanded="true" />
+            <element signature="e#9845#9879#0" expanded="true" />
+            <element signature="e#9947#9981#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
